@@ -1,0 +1,154 @@
+.products-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.products-section > h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 35px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.cart-section {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.cart-item button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.home-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 55px 20px;
+  text-align: center;
+}
+
+.home-section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.benefit-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.benefit-card p,
+.page-intro {
+  color: #666;
+  line-height: 1.6;
+}
+
+.home-shop-link,
+.back-link {
+  display: inline-block;
+  margin-top: 25px;
+  color: #4f46e5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.page-intro {
+  text-align: center;
+  margin: -20px 0 30px;
+}
+
+.detail-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.product-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+  align-items: center;
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.detail-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.detail-label {
+  color: #667eea;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.detail-info h2 {
+  font-size: 34px;
+  margin: 10px 0;
+}
+
+.detail-price {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.detail-description {
+  color: #666;
+  line-height: 1.7;
+}
+
+.empty-cart {
+  text-align: center;
+  padding: 35px;
+}
+
+.cart-summary {
+  text-align: right;
+  margin-top: 25px;
+}
+
+.checkout-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #667eea;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .benefit-grid,
+  .product-detail {
+    grid-template-columns: 1fr;
+  }
+}

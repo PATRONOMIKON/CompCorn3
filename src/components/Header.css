@@ -1,0 +1,70 @@
+.header {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 0;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header nav {
+  display: flex;
+  gap: 25px;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header nav a:hover {
+  color: #a5b4fc;
+}
+
+.cart-container {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.cart-icon {
+  font-size: 28px;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  min-width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+.store-link {
+  color: white;
+  text-decoration: none;
+}
+
+.cart-container {
+  color: white;
+  text-decoration: none;
+}
